@@ -1,0 +1,15 @@
+modpoll 3.11 - FieldTalk(tm) Modbus(R) Master Simulator
+Copyright (c) 2002-2024 proconX Pty Ltd
+Visit https://www.modbusdriver.com for Modbus libraries and tools.
+
+Protocol configuration: MODBUS/TCP, FC3
+Slave configuration...: address = 1, start reference = 100, count = 5
+Communication.........: 127.0.0.1, port 1502, t/o 1.00 s, poll rate 1000 ms
+Data type.............: 16-bit register, output (holding) register table
+
+-- Polling slave...
+[100]: 0
+[101]: 0
+[102]: 0
+[103]: 0
+[104]: 0
